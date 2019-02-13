@@ -24,31 +24,25 @@ public class Solution {
     }
 }
 /**
-In this challenge, consider a range of positive integers from 1 to a limit.
- For each value, print either a string or the value based on whether the number
- is a multiple of 3, 5, 7, all, any combination or neither.
- Determine the string to return based on the following rules for an integer i:
-
-        If i is a multiple of 3, print Fizz.
-        If i is a multiple of 5, print Buzz.
-        If i is a multiple of 7, print Woof.
-        If i is a multiple of any combination of numbers 3, 5 and 7, print a combination of words in one string. Ex. for 3,5,7, print FizzBuzzWoof.
-        For all others, print the value of i.
-
-
-        Function Description
-
-        Complete the function fizzBuzzWoof in the editor below. The function print the appropriate response for each value i ∈ {1, 2, ... n} in ascending order, each on a separate line.  There is no return value expected.
-
-
-
-        fizzBuzz has the following parameter(s):
-
-        n:  upper limit of values to test (inclusive)
-
-
-
-        Constraints
-
-        0 < n < 2 × 105
+ * In this challenge, consider a range of positive integers from 1 to a limit.
+ * For each value, print either a string or the value based on whether the number
+ * is a multiple of 3, 5, 7, all, any combination or neither.
+ * Determine the string to return based on the following rules for an integer i:
+ *
+ * If i is a multiple of 3, print Fizz.
+ * If i is a multiple of 5, print Buzz.
+ * If i is a multiple of 7, print Woof.
+ * If i is a multiple of any combination of numbers 3, 5 and 7, print a combination of words in one string. Ex. for 3,5,7, print FizzBuzzWoof.
+ * For all others, print the value of i.
+ *
+ * Function Description
+ *
+ * Complete the function fizzBuzzWoof in the editor below. The function print the appropriate response for each value i ∈ {1, 2, ... n} in ascending order, each on a separate line.  There is no return value expected.
+ * fizzBuzz has the following parameter(s):
+ *
+ * n:  upper limit of values to test (inclusive)
+ *
+ * Constraints
+ *
+ * 0 < n < 2 × 105
  */
